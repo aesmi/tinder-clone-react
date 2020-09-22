@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, SwipeButtons, TinderCards, Chats, ChatScreen } from './components';
+import { Header, SwipeButtons, TinderCards, Chats, ChatScreen, Profile } from './components';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
@@ -21,6 +21,10 @@ export default function App() {
               <Header />
               <TinderCards />
               <SwipeButtons />
+            </Route>
+            <Route path="/profile">
+              <Header backButton="/" />
+              <Profile />
             </Route>
           </Switch>
         </Router>
