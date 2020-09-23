@@ -17,7 +17,7 @@ function Chat({ name, message, profilePic, timestamp }) {
             </div>
         </Link>
 
-    )
+    );
 }
 
 export default Chat

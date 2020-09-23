@@ -1,4 +1,5 @@
 import React from 'react';
+import Container from '@material-ui/core/Container';
 import { Header, SwipeButtons, TinderCards, Chats, ChatScreen, Profile } from './components';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
