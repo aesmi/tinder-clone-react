@@ -20,7 +20,7 @@ export default function Header({ backButton }) {
 
             <Link to="/">
                 <IconButton>
-                    <img src="https://i.redd.it/mmg7bpdnlft31.jpg"
+                    <img src="https://emoji.gg/assets/emoji/6546_OwO.png"
                         className="header_logo"
                         alt="Tinder Logo" />
                 </IconButton>
