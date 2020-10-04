@@ -7,8 +7,7 @@ import Cards from "./models/dbCards.js"
 //App Config
 const app = express();
 const port = process.env.PORT || 8001;
-const connection_url = `mongodb+srv://admin:${password}>@cluster0.tpllr.mongodb.net/<dbname>?retryWrites=true&w=majority`
-const password = TrQ9MeXFgnTIqqli
+
 
 //Middlewares
 //app.use(middleware) this express function mounts middleware onto our server
